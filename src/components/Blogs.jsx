@@ -11,7 +11,6 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);
-    console.log(blogs);
 
     return (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-20">
