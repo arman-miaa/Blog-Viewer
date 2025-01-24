@@ -1,9 +1,10 @@
+import Navbar from "@/components/Navbar/Navbar";
 
 
 const page = () => {
   return (
     <div>
-      f
+     <Navbar/>
     </div>
   );
 };
